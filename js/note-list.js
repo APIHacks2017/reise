@@ -65,7 +65,7 @@
 									"<label>Image</label><br/>"+
 						"<div id='icon_url_container'><img src="+icon_url+" id='icon_url' alt=''/></div><br/>"+
 									"<label>Conditions</label><br/>"+
-						"<div id='conditions'>"+conditions+"</div><br/>";
+						"<div id='conditions'>"+conditions+"</div><br/><hr/>";
 
 					}
 					$('.sortable').html(finalresults);
