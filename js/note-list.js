@@ -3,7 +3,7 @@
 		$('.resultcontainer').hide();
 
         $(function () {
-            $("#Startdate").datepicker();
+            $("#Startdate").datepicker({ minDate: 0 ,maxDate: 10});
         });
         $(function () {
             $("#Enddate").datepicker();
