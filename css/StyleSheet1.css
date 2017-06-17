@@ -1,0 +1,45 @@
+﻿
+body {
+
+  background: linear-gradient(to left, #B24592 , #F15F79);
+}
+
+  body {
+    
+  }
+     .portlet {
+    font: 12px/1.3 sans-serif;
+    margin: 3px;
+    padding: 1px;
+    display: inline-block;
+    vertical-align: top;
+    height: 100px;
+}
+
+
+
+.portlet-header {
+    margin: 3px;
+    padding: 1px 0 2px 3px;
+}
+
+.portlet-header .ui-icon {
+    float: right;
+}
+
+.portlet-content {
+    padding: 4px;
+}
+
+.portlet-minimized {
+    height: auto;
+}
+
+.portlet-minimized .portlet-content {
+    display: none;
+}
+
+.ui-sortable-placeholder {
+    border: 1px dotted black;
+    visibility: visible !important;
+}
