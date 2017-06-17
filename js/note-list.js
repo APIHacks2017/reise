@@ -53,6 +53,7 @@
 						//~ $('#conditions').text(conditions);
 						
 						finalresults+="<label>Pretty</label><br/>"+
+						
 									  "<div id='pretty'>"+pretty+"</div><br/>"+
 									  "<label>High Celsius</label><br/>"+
 						"<div id='highcelsius'>"+highcelsius+"</div><br/>"+
@@ -61,11 +62,11 @@
 									"<label>Low Celsius</label><br/>"+
 						"<div id='locelsius'>"+lowcelsius+"</div><br/>"+
 									"<label>Low Fahrenheit</label><br/>"+
-						"<div id='lowfahrenheit'>"+lowfahrenheit+"</div><br/>"+
-									"<label>Image</label><br/>"+
-						"<div id='icon_url_container'><img src="+icon_url+" id='icon_url' alt=''/></div><br/>"+
+						"<div id='lowfahrenheit'>"+lowfahrenheit+"</div><br/>"+									
+					
 									"<label>Conditions</label><br/>"+
-						"<div id='conditions'>"+conditions+"</div><br/><hr/>";
+						"<div id='conditions'>"+conditions+"</div><br/>"+
+							"<div id='icon_url_container'><img src="+icon_url+" id='icon_url' alt=''/></div><br/><hr/>";
 
 					}
 					$('.sortable').html(finalresults);
